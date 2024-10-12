@@ -1,0 +1,23 @@
+:: StoryTitle
+My Twine Game
+
+:: Start
+Welcome to the beginning of your adventure. Do you go left or right?
+
+[[Go Left->Left Path]]
+[[Go Right->Right Path]]
+
+:: Left Path
+You chose the left path. You find a treasure chest. [[Open it->Open Chest]].
+
+:: Right Path
+The right path is dark and eerie. You hear strange noises. [[Turn Back->Start]].
+
+:: Open Chest
+Inside the chest is a golden crown! [[Return to Start->Start]]
+
+
+:: StoryData
+{
+        "ifid": "A29FF0E9-99A2-466D-A015-EAA475D60003"
+}
